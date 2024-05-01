@@ -1,0 +1,46 @@
+
+.footer {
+    position: initial;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #010930;
+    color: #495057;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border-top: 1px solid #dee2e6;
+    z-index: 9999; /* Ensure it's above other content */
+    height: 400px;
+}
+
+
+.footer-links {
+    display: block;
+   
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none; /* Remove underline decoration */
+    padding: 0 10px;
+}
+
+.footer-subscribe {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-subscribe input[type="text"] {
+    padding: 5px;
+    margin-left: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer-subscribe input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+}
